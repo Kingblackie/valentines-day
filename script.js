@@ -70,5 +70,5 @@ function displayFinalMessage() {
 	messageContainer.innerHTML = "<h1>Of course, it was a yes. What else would she have said lol?<br> Just kidding, 'Preciate you loads</h1>";
 }
 
-// Call function when page loads
+// Call function when page 
 window.onload = displayWelcomeMessage;
