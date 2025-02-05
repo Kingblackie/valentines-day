@@ -42,7 +42,7 @@ button {
 }
 
 .image {
-	max-width: 400px;
+	max-width: 300px;
 	object-fit: cover;
 }
 
