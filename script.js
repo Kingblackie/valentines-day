@@ -5,8 +5,7 @@ function displayWelcomeMessage() {
 	var imageContainer = document.getElementById('image-container');	
 	var image = new Image();
 	image.src = 'https://media0.giphy.com/media/WxBAB110jrDQ5njMaK/giphy.webp?cid=ecf05e47soi8kd9lvyjhar4h9850421qf67suqyefj2gjwpk&ep=v1_gifs_search&rid=giphy.webp&ct=g'
-	image.width = 400
-	image.style.aspectRatio = 1
+	image.classList.add('image')
 	image.onload = function() {
 		imageContainer.appendChild(image);
 	};
@@ -55,8 +54,7 @@ function displayCatHeart() {
 	var imageContainer = document.getElementById('image-container');
 	var catHeartImage = new Image();
 	catHeartImage.src = 'cat-heart.gif'; 
-	catHeartImage.style.maxWidth = '300px'
-	catHeartImage.style.objectFit = 'cover'
+	catHeartImage.classList.add('image')
 	catHeartImage.alt = 'Cat Heart';
 	catHeartImage.onload = function() {
 			imageContainer.appendChild(catHeartImage);

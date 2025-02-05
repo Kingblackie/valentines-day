@@ -40,3 +40,14 @@ button {
 	border: none; /* Remove button border */
 	cursor: pointer; /* Set cursor to pointer on hover */
 }
+
+.image {
+	max-width: 400px;
+	object-fit: cover;
+}
+
+@media (max-width: 760px) {
+	.image {
+		max-width: 150px;
+	}
+}
