@@ -55,7 +55,7 @@ function displayCatHeart() {
 	var imageContainer = document.getElementById('image-container');
 	var catHeartImage = new Image();
 	catHeartImage.src = 'cat-heart.gif'; 
-	catHeartImage.style.width = '300px'
+	catHeartImage.style.maxWidth = '300px'
 	catHeartImage.style.objectFit = 'cover'
 	catHeartImage.alt = 'Cat Heart';
 	catHeartImage.onload = function() {
