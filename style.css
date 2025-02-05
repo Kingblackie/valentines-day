@@ -1,10 +1,10 @@
 /* style.css */
 
 body {
-	font-family: Arial, sans-serif; /* Fallback font family */
 	text-align: center; /* Center-align text */
 	margin: 0; /* Remove default margin */
 	background-color: #FADADD; /* Set background color to light pink */
+	font-family: 'Sacramento', cursive;
 }
 
 #container {
@@ -19,8 +19,11 @@ body {
 	/* This container will hold the images */
 }
 
+#message {
+	font-size: 25px;
+}
+
 #question {
-	font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
 	font-size: 52px; /* Set font size for the question */
 }
 
@@ -32,7 +35,6 @@ button {
 	padding: 10px 20px; /* Set padding for buttons */
 	margin: 0 10px; /* Set margin around buttons */
 	font-size: 26px; /* Set font size for buttons */
-	font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
 	background-color: #FB607F; /* Set button background color */
 	color: white; /* Set text color to white */
 	border: none; /* Remove button border */
