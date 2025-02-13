@@ -4,7 +4,7 @@ function displayWelcomeMessage() {
 	messageContainer.innerHTML = "<h1>Hey Chargie, before you answer... just know that someone (this guy, lol) thinks you're absolutely amazing! 💖</h1>";
 	var imageContainer = document.getElementById('image-container');	
 	var image = new Image();
-	image.src = 'https://media0.giphy.com/media/WxBAB110jrDQ5njMaK/giphy.webp?cid=ecf05e47soi8kd9lvyjhar4h9850421qf67suqyefj2gjwpk&ep=v1_gifs_search&rid=giphy.webp&ct=g'
+	image.src = 'val.webp'
 	image.classList.add('image')
 	image.onload = function() {
 		imageContainer.appendChild(image);
@@ -65,7 +65,7 @@ function displayCatHeart() {
 // Function to display the final heartfelt message
 function displayFinalMessage() {
 	var messageContainer = document.getElementById('message');
-	messageContainer.innerHTML = "<h1>Of course, it was a yes. What else would she have said lol?<br> Just kidding, 'Preciate you loads</h1>";
+	messageContainer.innerHTML = "<h1>Of course, it was a yes. What else would she have said lol?<br> Just kidding, 'Preciate you loads<br>You add so much color to my life and I feel so lucky to have you. Let's live for everyday and have only beaituiful memories yeah?</h1>";
 }
 
 // Call function when page 
